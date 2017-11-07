@@ -8,6 +8,10 @@ export default class KeepAwake extends Component {
     NativeModules.KCKeepAwake.activate();
   }
 
+  static activateWithUnlockFlags() {
+    NativeModules.KCKeepAwake.activateWithUnlockFlags();
+  }
+
   static deactivate() {
     NativeModules.KCKeepAwake.deactivate();
   }
